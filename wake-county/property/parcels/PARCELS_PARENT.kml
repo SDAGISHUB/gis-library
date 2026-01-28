@@ -5,7 +5,7 @@
     <NetworkLink>
       <name>Load Parcels (Test)</name>
       <Link>
-        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/MapServer/0/query?where=OBJECTID%20%3C%20200&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
+        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/FeatureServer/0/query?where=OBJECTID%20%3C%20200&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
       </Link>
     </NetworkLink>
   </Document>
