@@ -2,17 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Wake County Parcels</name>
-
     <NetworkLink>
-      <name>Load Parcels (Test: OBJECTID &lt; 200)</name>
-      <open>0</open>
-      <refreshVisibility>0</refreshVisibility>
+      <name>Load Parcels (Test)</name>
       <Link>
         <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/MapServer/0/query?where=OBJECTID%20%3C%20200&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
-        <refreshMode>onInterval</refreshMode>
-        <refreshInterval>86400</refreshInterval>
       </Link>
     </NetworkLink>
-
   </Document>
 </kml>
