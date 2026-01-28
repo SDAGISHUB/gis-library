@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Property</name>
+    <name>Parcels</name>
 
     <NetworkLink>
-      <name>Parcels</name>
+      <name>Parcels (Test: OBJECTID &lt; 200)</name>
       <open>0</open>
       <refreshVisibility>0</refreshVisibility>
       <Link>
-        <href>https://raw.githubusercontent.com/SDAGISHUB/gis-library/main/wake-county/property/parcels/PARCELS_PARENT.kml</href>
-        <refreshMode>onInterval</refreshMode>
-        <refreshInterval>86400</refreshInterval>
-      </Link>
-    </NetworkLink>
-
-    <NetworkLink>
-      <name>Addresses</name>
-      <open>0</open>
-      <refreshVisibility>0</refreshVisibility>
-      <Link>
-        <href>https://raw.githubusercontent.com/SDAGISHUB/gis-library/main/wake-county/property/addresses/ADDRESSES_PARENT.kml</href>
-        <refreshMode>onInterval</refreshMode>
-        <refreshInterval>86400</refreshInterval>
-      </Link>
-    </NetworkLink>
-
-    <NetworkLink>
-      <name>Planning Jurisdictions</name>
-      <open>0</open>
-      <refreshVisibility>0</refreshVisibility>
-      <Link>
-        <href>https://raw.githubusercontent.com/SDAGISHUB/gis-library/main/wake-county/property/planning-jurisdictions/PLANNING_JURISDICTIONS_PARENT.kml</href>
-        <refreshMode>onInterval</refreshMode>
-        <refreshInterval>86400</refreshInterval>
-      </Link>
-    </NetworkLink>
-
-    <NetworkLink>
-      <name>Corporate Limits</name>
-      <open>0</open>
-      <refreshVisibility>0</refreshVisibility>
-      <Link>
-        <href>https://raw.githubusercontent.com/SDAGISHUB/gis-library/main/wake-county/property/corporate-limits/CORPORATE_LIMITS_PARENT.kml</href>
+        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/MapServer/0/query?where=OBJECTID%20%3C%20200&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>86400</refreshInterval>
       </Link>
