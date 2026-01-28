@@ -2,20 +2,17 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Parcels</name>
-    <Folder>
-      <name>Parcels</name>
-      <open>1</open>
-      <NetworkLink>
-        <name>Parcels (endpoint TBD)</name>
-        <open>0</open>
-        <refreshVisibility>0</refreshVisibility>
-        <Link>
-          <href>https://example.com/REPLACE_WITH_KMZ_ENDPOINT</href>
-          <refreshMode>onInterval</refreshMode>
-          <refreshInterval>86400</refreshInterval>
-        </Link>
-      </NetworkLink>
 
-    </Folder>
+    <NetworkLink>
+      <name>Parcels (Wake County)</name>
+      <open>0</open>
+      <refreshVisibility>0</refreshVisibility>
+      <Link>
+        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/MapServer/0/query?where=1%3D1&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>86400</refreshInterval>
+      </Link>
+    </NetworkLink>
+
   </Document>
 </kml>
