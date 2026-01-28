@@ -4,16 +4,17 @@
     <name>Wake County Parcels</name>
 
     <NetworkLink>
-      <name>Load Parcels (Test: OBJECTID &lt; 200)</name>
+      <name>Parcels (Live, Wake County FeatureServer)</name>
       <flyToView>0</flyToView>
 
       <Link>
         <!-- Google Earth decodes &amp; back to & -->
-        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/FeatureServer/0/query?where=OBJECTID%20%3C%20200&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;resultRecordCount=200&amp;f=kmz</href>
+        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/FeatureServer/0/query?where=1=1&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
 
         <!-- Don’t auto-refresh while you’re testing -->
-        <refreshMode>onChange</refreshMode>
-        <viewRefreshMode>never</viewRefreshMode>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+        <viewRefreshMode>onStop</viewRefreshMode>
       </Link>
     </NetworkLink>
 
