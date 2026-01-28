@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>GIS Library</name>
+    <name>SDA Earth</name>
 
-    <Folder>
-      <name>GIS Library</name>
-      <open>1</open>
+    <NetworkLink>
+      <name>Wake County</name>
+      <open>0</open>
+      <refreshVisibility>0</refreshVisibility>
+      <Link>
+        <href>https://raw.githubusercontent.com/SDAGISHUB/gis-library/main/wake-county/WakeCounty_PARENT.kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>86400</refreshInterval>
+      </Link>
+    </NetworkLink>
 
-      <NetworkLink>
-        <name>Wake County</name>
-        <open>0</open>
-        <refreshVisibility>0</refreshVisibility>
-        <Link>
-          <href>https://raw.githubusercontent.com/SDAGISHUB/gis-library/main/wake-county/WakeCounty_PARENT.kml</href>
-          <refreshMode>onInterval</refreshMode>
-          <refreshInterval>86400</refreshInterval>
-        </Link>
-      </NetworkLink>
-
-    </Folder>
   </Document>
 </kml>
-
