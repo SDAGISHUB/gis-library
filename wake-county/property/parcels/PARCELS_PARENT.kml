@@ -4,11 +4,11 @@
     <name>Parcels</name>
 
     <NetworkLink>
-      <name>Parcels (Live, Wake County FeatureServer)</name>
+      <name>Parcels (Live, Wake County MapServer)</name>
       <flyToView>0</flyToView>
 
       <Link>
-        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/FeatureServer/0/query?where=1=1&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
+        <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/MapServer/0/query?where=1=1&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
         <viewRefreshMode>onStop</viewRefreshMode>
