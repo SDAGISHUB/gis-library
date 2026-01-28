@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Wake County Parcels</name>
+    <name>Parcels</name>
 
     <NetworkLink>
       <name>Parcels (Live, Wake County FeatureServer)</name>
       <flyToView>0</flyToView>
 
       <Link>
-        <!-- Google Earth decodes &amp; back to & -->
         <href>https://maps.wakegov.com/arcgis/rest/services/Property/Parcels/FeatureServer/0/query?where=1=1&amp;outFields=*&amp;returnGeometry=true&amp;outSR=4326&amp;f=kmz</href>
-
-        <!-- Don’t auto-refresh while you’re testing -->
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
         <viewRefreshMode>onStop</viewRefreshMode>
