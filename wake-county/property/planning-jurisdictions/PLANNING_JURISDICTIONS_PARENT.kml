@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Planning Jurisdictions</name>
+    <Folder>
+      <name>Planning Jurisdictions</name>
+      <open>1</open>
+      <NetworkLink>
+        <name>Planning Jurisdictions (Wake County)</name>
+        <open>0</open>
+        <refreshVisibility>0</refreshVisibility>
+        <Link>
+          <href>https://maps.wakegov.com/arcgis/rest/services/Jurisdictions/Jurisdictions/MapServer/1/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=kmz</href>
+          <refreshMode>onInterval</refreshMode>
+          <refreshInterval>86400</refreshInterval>
+        </Link>
+      </NetworkLink>
+
+    </Folder>
+  </Document>
+</kml>
